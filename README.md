@@ -1,21 +1,16 @@
 # EDA_Proyecto_Excel_Diego
-## 1 Dashboard projecto Diego 📝
+## 1 Análisis de las principales plataformas de ocio en el mundo 📝📊
  
 
-📋 Título del Proyecto
-Debe ser breve y descriptivo.
-Incluye un emoji o un subtítulo para darle un toque personal.
-Ejemplo: 📊 Análisis de Ventas: Exploración y Modelado de Datos
-## 2. Descripción del Proyecto
-Explica en qué consiste tu proyecto y cuál es su objetivo.
-Menciona brevemente el contexto del análisis y qué problema estás
-resolviendo.
-Incluye qué técnicas o enfoques se usaron para llevar a cabo el análisis.
-Ejemplo: 📖 Descripción
-Este proyecto realiza un análisis exploratorio y predictivo de las ventas de una
-empresa minorista. El objetivo es identificar tendencias, patrones y realizar
-predicciones basadas en datos históricos usando técnicas de modelado
-estadístico.
+## 2. Descripción del Proyecto 📖
+Me acaba de contratar una de las empresas internacionales de telefonía e internet más importantes del mundo con el fin de realizar un estudio de mercado en profundida sobre qué plataforma ofertar en función de la tiopoligía del cliente.
+Plataformas a analizar:
+- Netflix
+- Amazon Prime Video
+- Disney Plus
+
+📊 Objetivo: Identificar los puntos fuertes y débiles de la programación por país y tipología (entre otras) de cada una de las tres plataformas previamente mencionadas, con el objetivo de ofertarlas e incluirlas de manera gratuita en el pack de telefonía e internet, como estrategia para captar mayor clientela.
+
 ## 3. Estructura del Proyecto
 Describe la organización de los archivos y carpetas en tu proyecto.
 📝 Guía para Escribir un Buen README en Nuestros Proyectos2Esto ayuda a otros usuarios a navegar y entender mejor el flujo de trabajo.
@@ -26,6 +21,7 @@ Ejemplo:
 ├── src/ # Scripts de procesamiento y modelado
 ├── results/ # Gráficos y archivos de resultados
 ├── README.md # Descripción del proyecto
+
 ## 4. Instalación y Requisitos
 Lista las bibliotecas, herramientas o dependencias necesarias para ejecutar
 tu proyecto.
@@ -38,6 +34,7 @@ Este proyecto usa Python 3.8 y requiere las siguientes bibliotecas:
 - numpy
 - matplotlib
 - seaborn
+
 ## 5. Resultados y Conclusiones
 Presenta un resumen de los hallazgos más importantes.
 Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
@@ -51,6 +48,7 @@ noviembre y diciembre.
 futuras.
  El análisis sugiere que los descuentos y promociones tienen un impacto
 directo en el comportamiento de compra de los clientes.
+
 ## 6. Próximos Pasos
 Si el proyecto sigue en desarrollo, menciona qué queda por hacer o
 mejorar.
@@ -63,6 +61,7 @@ Ejemplo:
 precisión.
  Explorar el impacto de factores externos como campañas de marketing y
 eventos en las ventas.
+
 ## 7. Contribuciones
 Indica si aceptas contribuciones y cómo otros pueden colaborar con el
 proyecto.

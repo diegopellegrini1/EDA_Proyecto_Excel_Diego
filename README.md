@@ -3,74 +3,49 @@
  
 
 ## 2. Descripción del Proyecto 📖
-Me acaba de contratar una de las empresas internacionales de telefonía e internet más importantes del mundo con el fin de realizar un estudio de mercado en profundida sobre qué plataforma ofertar en función de la tiopoligía del cliente.
+Me acaba de contratar una de las empresas internacionales de telefonía e internet más importantes del mundo (Pellegrini-Phone) con el fin de realizar un estudio de mercado en profundidad sobre cuál sería la mejor plataforma a ofertar en función de su oferta (películas, series, documentales, etc.)
 Plataformas a analizar:
 - Netflix
 - Amazon Prime Video
 - Disney Plus
 
-📊 Objetivo: Identificar los puntos fuertes y débiles de la programación por país y tipología (entre otras) de cada una de las tres plataformas previamente mencionadas, con el objetivo de ofertarlas e incluirlas de manera gratuita en el pack de telefonía e internet, como estrategia para captar mayor clientela.
+📊 Objetivo: Identificar los puntos fuertes y débiles de la oferta de las principales plataformas mundiales (Netflix, Amazon Prime, Disney Plus) con el objetivo de elegir cuál incluir como pack dentro de los servicios de telefonía e internet que ofrece la empresa Pellegrini-Phone, como estrategia para captar mayor clientela.
 
-## 3. Estructura del Proyecto
-Describe la organización de los archivos y carpetas en tu proyecto.
-📝 Guía para Escribir un Buen README en Nuestros Proyectos2Esto ayuda a otros usuarios a navegar y entender mejor el flujo de trabajo.
-Ejemplo:
-🗂 Estructura del Proyecto
-├── data/ # Datos crudos y procesados
-├── notebooks/ # Notebooks de Jupyter con el análisis
-├── src/ # Scripts de procesamiento y modelado
-├── results/ # Gráficos y archivos de resultados
-├── README.md # Descripción del proyecto
+## 3. Estructura del Proyecto📝
+A continuación, explico la estructura del proyecto realizado, así como los distintos files y folders que he utilizado para llevar a cabo mi análisis y la construcción de mi Dashboard final.
 
-## 4. Instalación y Requisitos
-Lista las bibliotecas, herramientas o dependencias necesarias para ejecutar
-tu proyecto.
-Proporciona instrucciones para instalar las dependencias, idealmente
-usando un entorno virtual.
-Ejemplo:
-🛠 Instalación y Requisitos
-Este proyecto usa Python 3.8 y requiere las siguientes bibliotecas:
-- pandas
-- numpy
-- matplotlib
-- seaborn
+Carpeta "Excels": 
+- Amazon_titles: Base de datos de Amazon Prime (descargada en Kaggle)
+- Nexflix_title: Base de datos de Netflix (descargada en Kaggle)
+- Disney_titles: Base de datos de Disney Plus (descargada en Kaggle)
 
-## 5. Resultados y Conclusiones
-Presenta un resumen de los hallazgos más importantes.
-Puedes incluir gráficos o tablas relevantes que apoyen las conclusiones.
-Explica cómo los resultados pueden ser útiles para los usuarios o
-tomadores de decisiones.
-Ejemplo:
-📊 Resultados y Conclusiones
-📝 Guía para Escribir un Buen README en Nuestros Proyectos3 Identificamos un aumento estacional en las ventas durante los meses de
-noviembre y diciembre.
- El modelo predictivo alcanzó un 85% de precisión en la estimación de ventas
-futuras.
- El análisis sugiere que los descuentos y promociones tienen un impacto
-directo en el comportamiento de compra de los clientes.
+Dashboard: 
+- Nombre: Carga_transformacion_datos
+- Estructura:
+-       Bases de datos descargadas (tabs en naranja): En estas tabs, he incluido las 3 bases de datos que he utilizado para poder crear y analizar mi Dashboard.
+-       EDA (Tabs en Negro): En estas tabs, he realizado más de 15 tipos análisis, modificaciones y pasos para poder limpiar las bases de datos elegidas con el fin de obtener información clara y concisa para así crear mi dashboard. En cada una de las tabs explico lo realizado paso a paso, con ejemplos reales y capturas de pantalla. 
+-       Final Dashboard (Tabs en Azul): en este apartado final, creo el dashboard para poder analizar qué plataforma elegir y explico las conclusiones finales. 
 
-## 6. Próximos Pasos
-Si el proyecto sigue en desarrollo, menciona qué queda por hacer o
-mejorar.
-También puedes mencionar ideas para futuros análisis o expansiones del
-proyecto.
-Ejemplo:
-🔄 Próximos Pasos
- Refinar el modelo predictivo usando más datos históricos.
- Implementar técnicas avanzadas de feature engineering para mejorar la
-precisión.
- Explorar el impacto de factores externos como campañas de marketing y
-eventos en las ventas.
+- README.md # Descripción del proyecto, explicación del análisis y trabajo realizado y conclusiones obtenidas a raiz del mismo. 
 
-## 7. Contribuciones
-Indica si aceptas contribuciones y cómo otros pueden colaborar con el
-proyecto.
-Ejemplo:
-🤝 Contribuciones
-Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor
-abre un pull request o una issue.
-8. Autores y Agradecimientos
-Menciona a los autores del proyecto y da crédito a quienes te ayudaron o
-inspiraron en el desarrollo.
-Ejemplo:
-📝 Guía para Escribir un Buen README en Nuestros Proyectos4✒ Autores
+## 4. Instalación y Requisitos 📝🛠 
+Para realizar mi Dashboard final he tenido que utilizar las siguientes plataformas, tools, links:
+- Kaggle --> Para poder obtener las bases de datos utilizadas.
+- Internet --> Para poder obtener información adicional de utilidad (cuáles son los directores de cine, actores y actrices más taquilleros de la historia).
+- Excel--> Para poder trabajar con las mismas.
+- Visual Studio Code --> para poder trabajar con el README.
+- Git Hub Desktop --> para subir mi trabajo final.
+
+## 5. Resultados y Conclusiones📊
+Tras haber realizado un análisis exaustivo sobre las principales plataformas de ocio (Netflix, Amazon Prime, Disney Plus) acerca de su oferta, no cabe la menor duda que, para Pellegrini-Phone Company, Netflix sería la mejor plataforma a incluir en su pack de telefonía e interne. Principales razones que confirman esta elección:
+- A pesar de tener menos oferta total que Amazon Prime (unas mil películas/series menos), se encuentra en los principales países desarrollados del mundo y en mercados emergentes como India, ofertando más de mil películas vs unas 250 películas que ofrece Amazon (Disney ni llega al gigante Indio).
+- Variedad de oferta: En Amazon Prime, destacamos 3 tipos de oferta por encima del resto; películas de Drama, comedia y acción. Sin embargo, en Netflix existe una gran variedad de oferta, siendo TV Shows la que más destaca sobre el resto. Este factor de análisis es muy importante, pues cada vez más los jóvenes (y no tan jóvenes) consumen esta tipología de oferta; docuseries o TV shows con episodios cortos, por encima de películas o series largas. 
+- Netflix abarca la gran mayoría de las películas, actores, actrices y directores más taquilleros de la historia del cine. Eso se transforma directamente a más visitas a la plataforma, y por lo tanto, a destacar sobre sus otras 2 competidoras. 
+
+Todas estas conclusiones se soportan en base a datos objetivos y numéricos incluidos en el Dashboard final. 
+
+## 6. Próximos Pasos 🔄 
+En base a lo expuesto anteriormente, Pellegrini-Phone va a incluir a la plataforma Netflix de manera gratuita a todos sus clientes, con el fin de captar más usuarios y mantener a los que ya lo son. 
+
+
+Diego Hernández Pellegrini (CEO de Pellegrini-Phone)
